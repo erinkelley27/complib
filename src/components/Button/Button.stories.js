@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
+import Pic from '../Icon/heartbtn.png';
 
 
 // const style = {
@@ -42,22 +43,54 @@ storiesOf('Button', module)
          type="primary"
       />) 
 
+    .add('Primary Cursor', () => <Button
+        label="Primary Cursor"
+        type="primary"
+        cursor
+        />)
+
       .add('Primary Outline', () => <Button
       label="Primary Outline"
       type="primary"
       outline
+      textFill
    />) 
+
+    .add('Primary Muted', () => <Button
+        label="Primary Muted"
+        type="primary"
+        textFill
+        muted
+        />)
 
       .add('Large Primary', () => <Button
       label="Large Primary Button"
       type="primary"
       large
   />)
+
+    .add('Large Muted', () => <Button
+        label="Large Muted"
+        type="primary"
+        large
+        muted
+        textFill
+        />)
+
+    .add('Large Outline', () => <Button
+        label="Large Outline"
+        type="primary"
+        large
+        outline
+        textFill
+        />)
+
       .add('Danger', () => <Button 
         label="Danger"
         type="danger"
-         
      />)
+
+
      .add('Large Danger', () => <Button 
      label="Large Danger Button"
      type="danger"
@@ -81,3 +114,12 @@ storiesOf('Button', module)
        // style={warningStyle}
       type="default"
       />)
+
+      .add('Heart', () => <Button
+        label="Add To Favorites"
+        type="primary"
+        muted
+        textFill
+        icon
+        src={Pic}
+        />)
