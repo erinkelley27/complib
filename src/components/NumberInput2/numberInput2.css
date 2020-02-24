@@ -1,0 +1,14 @@
+.box {
+    width: 10%;
+    height: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+
+.thisDiv {
+}

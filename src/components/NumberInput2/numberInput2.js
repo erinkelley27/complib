@@ -7,14 +7,22 @@ class NumberInput2 extends Component {
     constructor(props){
            super(props);
           this.state = {
-              numb: 0
+              numb: parseInt(props.start)
          }
                 
      }
 
      minus = (event) => {
-        this.setState({numb: this.state.numb -= 1})
+        if(this.state.numb>parseInt(this.props.min)) {
+        this.setState({numb: this.state.numb -= parseInt(this.props.step)})
+        }
     };
+
+    plus = (event) => {
+        if(this.state.numb<parseInt(this.props.max)) {
+        this.setState({numb: this.state.numb += parseInt(this.props.step)})
+    }
+}
 
 
 
@@ -26,12 +34,12 @@ class NumberInput2 extends Component {
     render(){
 
     return (
-        <div>
-            <span>+</span>
-            <span>
-            {this.state.numb}
+        <div className='thisDiv'>
+            <span className='box' onClick={this.minus}>  -  </span>
+            <span className='box'>
+             {this.state.numb} 
             </span>
-            <span onClick={this.minus}>-</span>
+            <span className='box' onClick={this.plus}>  +  </span>
          </div>
     )
 }

@@ -1,0 +1,47 @@
+select {
+    background-color: white;
+	border-radius: 4px;
+	width: 80%;
+	padding: 6px;
+    font-size: 10px;
+    border: none;
+
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+ -o-appearance: none;
+    appearance: none;
+}
+
+
+.outline {
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    border-radius: 5px;
+    width: 17%;
+}
+
+.medium {
+    padding: 8px;
+}
+.large {
+    padding: 10px;
+}
+
+.selectWrapper:after {
+    content: url('./arrowThing.png');
+}
+.selectWrapper {
+}
+
+.background {
+    background-color: whitesmoke;
+    width: 17%;
+    border-radius: 5px;
+
+}
+
+.in-background {
+    background-color:whitesmoke;
+}
