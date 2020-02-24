@@ -1,0 +1,16 @@
+#box {
+    height: 13px;
+    width: 13px;
+    border: solid;
+    border-width: thin;
+    margin-right: 10px;
+}
+
+.checked {
+    background-image: url('./checkedBlack.png');
+    background-size: contain;
+}
+
+#containThis {
+    display: flex;
+}

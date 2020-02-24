@@ -33,7 +33,7 @@ class TextInput extends Component {
             <div>
             {this.props.label}
             </div>
-            <input placeholder={this.props.placeHolder || this.props.label} onChange={this.getInput}></input>
+            <input className={this.props.class} placeholder={this.props.placeHolder || this.props.label} onChange={this.getInput}></input>
          </form>
     )
 }

@@ -50,8 +50,14 @@ storiesOf('TextInput', module)
     .add('Medium Size', () => <TextInput
         label="Email"
         type="mediumSize"
+        class="medium"
         medium
        /> )
+      .add('Large Size', () => <TextInput
+        label="Email"
+        type="mediumSize"
+        class="larger"
+      />)
 
 //       .add('Large Primary', () => <Button
 //       label="Large Primary Button"

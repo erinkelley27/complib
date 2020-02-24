@@ -37,11 +37,26 @@ button {
 }
 
 .textInput-medium {
-    border: solid;
-    border-color: red;
     height: 100px;
+}
+
+.medium {
+    height: 24px;
+}
+
+.larger {
+    height: 38px;
 }
 
 .button-large {
     padding: 10px 50px;
+}
+
+form {
+    font-size: 12px;
+}
+
+input{
+    font-size: 12px;
+    margin-top: .3em;
 }
