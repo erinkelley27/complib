@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef4199b1.chunk.css",
+    "main.js": "/main.20bce97403ead5654f04.bundle.js",
+    "main.css.map": "/static/css/main.ef4199b1.chunk.css.map",
+    "main.js.map": "/main.20bce97403ead5654f04.bundle.js.map",
+    "runtime~main.js": "/runtime~main.20bce97403ead5654f04.bundle.js",
+    "runtime~main.js.map": "/runtime~main.20bce97403ead5654f04.bundle.js.map",
+    "vendors~main.js": "/vendors~main.20bce97403ead5654f04.bundle.js",
+    "vendors~main.js.map": "/vendors~main.20bce97403ead5654f04.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.84c7a43d52d0b8470df3ac78e07172ca.js": "/precache-manifest.84c7a43d52d0b8470df3ac78e07172ca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/selectInput.css": "/static/media/arrowThing.b72925e3.png",
+    "static/media/checkbox.css": "/static/media/checkedBlack.d9e463d7.png",
+    "vendors~main.20bce97403ead5654f04.bundle.js.LICENSE.txt": "/vendors~main.20bce97403ead5654f04.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.20bce97403ead5654f04.bundle.js",
+    "vendors~main.20bce97403ead5654f04.bundle.js",
+    "static/css/main.ef4199b1.chunk.css",
+    "main.20bce97403ead5654f04.bundle.js"
+  ]
+}

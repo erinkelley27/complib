@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
-import Pic from '../Icon/heartbtn.png';
+// import Pic from '../Icon/heartbtn.png';
 
 
 // const style = {
@@ -121,5 +121,5 @@ storiesOf('Button', module)
         muted
         textFill
         icon
-        src={Pic}
+        // src={Pic}
         />)
